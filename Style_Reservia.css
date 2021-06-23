@@ -1,0 +1,132 @@
+/*Partie CSS PROJET2 Antoine NAGET*/
+
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.google.com/share?selection.family=Open%20Sans),
+         url('Raleway-VariableFont_wght.ttf') format('truetype'),
+         url('Raleway-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 1080px;
+    margin: auto;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;   
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*couleur des étoiles*/
+#SB
+{
+    color:#0065FC;
+}
+#SG
+{
+    color:#F2F2F2;
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    margin: auto;
+    background-color: #F2F2F2;
+    
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h3 
+{
+    font-size: 0.5em;
+}
+
+#a_propos
+{
+    width: 28%;
+}
+
+#nos_hebergements
+{
+    width: 35%;
+}
+
+#assistance
+{
+    width: 31%;
+}
+
+
+#liste_a_propos #liste_nos_hebergements #liste_assistance
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 0;    
+}
+footer ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
