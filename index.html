@@ -37,7 +37,7 @@
             <!--Bouton de recherche-->
             <form method="post" action="traitement.php">
                 <p>
-                    <label for="loc" id="marker"><i class="fas fa-map-marker-alt"></i></label>
+                    <label id="marker"><i class="fas fa-map-marker-alt"></i></label>
                     <input type="search" name="recherche" id="recherche" placeholder="Marseille, France" size="30" maxlength="10" />
                     <input type="submit" value="Rechercher" id="bouton"/>
                 </p>
@@ -61,11 +61,10 @@
                 Plus de 500 logements sont disponibles dans cette ville
                 </p>
             </div>
-            
-            <section id="hebergements">
-                <!--article "Hébergements à Marseille"-->
-                <article>
-                    <div id="hebergements_marseille">
+
+            <!--SECTION "Hébergements à Marseille"-->
+            <section id="hebergements">           
+                <div id="hebergements_marseille">
                         <h4>Hébergements à Marseille</h4>
                         <!--pastille1-->
                         <div id="auberge_la_cannebiere">
@@ -116,8 +115,8 @@
                             ></i><i class="fas fa-star BBB"></i></p>
                         </div>
                         <h5>Afficher plus</h5>
-                    </div>
-                </article>
+                </div>
+                
                 <!--aside "Les plus populaires"-->
                 <aside>
                     <div id="les_plus_populaires">
@@ -183,43 +182,31 @@
             
             <footer>
                 <!--colonne A propos-->
-                <div id="a_propos">
-                    <h3>A propos</h3>
-                    <div id="liste_a_propos">
-                        <ul>
-                            <li><a href="#">Fonctionnement du site</a></li>
-                            <li><a href="#">Conditions générales de vente</a></li>
-                            <li><a href="#">Données et confidentialité</a></li>                            
-                        </ul>                       
-                    </div>
+                <div class="listeFooter">
+                    <ul>
+                    <li><a href="#"><span class="ligne1listeFooter">A propos</span></a></li>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>                            
+                    </ul>                       
                 </div>
                 <!--colonne Nos hébergements-->
-                <div id="nos_hebergements">
-                    <h3>Nos hébergements</h3>
-                    <div id="liste_nos_hebergements">
-                        <ul>
-                            <li><a href="#">Charte qualité</a></li>
-                            <li><a href="#">Soumettre votre hôtel</a></li>                                                       
-                        </ul>                       
-                    </div>
+                <div class="listeFooter">
+                    <ul>
+                    <li><a href="#"><span class="ligne1listeFooter">Nos hébergements</span></a></li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>                                                       
+                    </ul>                       
                 </div>
                 <!--colonne Assistance-->
-                <div id="assistance">
-                    <h3>Assistance</h3>
-                    <div id="liste_assistance">
-                        <ul>
-                            <li><a href="#">Centre d'aide</a></li>
-                            <li><a href="#">Nous contacter</a></li>                                                       
-                        </ul>                       
-                    </div>
+                <div class="listeFooter">
+                    <ul>
+                    <li><a href="#"><span class="ligne1listeFooter">Assistance</span></a></li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>                                                       
+                    </ul>                       
                 </div>
             </footer>
         </div>
     </body>
 </html>
-
-<!-- correction Gilles
-- passer le code au w3c
-- problème sur titre section
-- label du bouton
--->

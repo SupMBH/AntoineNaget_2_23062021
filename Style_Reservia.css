@@ -96,42 +96,7 @@ footer
     background-color: #F2F2F2;
     
 }
-
-footer p, footer ul
-{
-    font-size: 0.8em;
-}
-
-footer h3 
-{
-    font-size: 0.5em;
-}
-
-#a_propos
-{
-    width: 28%;
-}
-
-#nos_hebergements
-{
-    width: 35%;
-}
-
-#assistance
-{
-    width: 31%;
-}
-
-
-#liste_a_propos #liste_nos_hebergements #liste_assistance
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-    margin-left: 0;    
-}
 footer ul
 {
     list-style-type: none;
-    padding-left: 0;
 }
