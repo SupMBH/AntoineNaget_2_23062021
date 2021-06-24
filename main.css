@@ -1,102 +1,49 @@
-/*Partie CSS PROJET2 Antoine NAGET*/
-
-/* Définition des polices personnalisées */
-
 @font-face {
-    font-family: 'Open Sans';
-    src: url(https://fonts.google.com/share?selection.family=Open%20Sans),
-         url('Raleway-VariableFont_wght.ttf') format('truetype'),
-         url('Raleway-Italic-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  
+  font-family: "Open Sans";
+  
+  font-style: normal;
+  
+  font-weight: normal;
+  
+src: url("https://fonts.google.com/share?selection.family=Open%20Sans"), url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
-/* Eléments principaux de la page */
-
-body
-{
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: #181818;
+body, a {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: black;
 }
 
-#bloc_page
-{
-    width: 1080px;
-    margin: auto;
+header {
+  display: flex;
 }
 
-header
-{
-    display: flex;
-    justify-content: space-between;   
+ul {
+  list-style-type: none;
 }
 
-/* Navigation */
-
-nav ul
-{
-    list-style-type: none;
-    display: flex;
+.listeFooter {
+  width: 33%;
 }
 
-nav li
-{
-    margin-right: 50px;
+h3 {
+  font-weight: bold;
 }
 
-nav a
-{
-    font-size: 1.3em;
-    color: black;
-    padding-bottom: 10px;
-    text-decoration: none;
+footer {
+  background-color: #f2f2f2;
+  display: flex;
 }
 
-nav a:hover
-{
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
+a {
+  text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*couleur des étoiles*/
-.BBB
-{
-    color:#0065FC;
-}
-.GGG
-{
-    color:#F2F2F2;
+.BBB {
+  color: #0065fc;
 }
 
-
-
-
-
-
-/* Footer */
-
-footer
-{
-    display: flex;
-    margin: auto;
-    background-color: #F2F2F2;
-    
+.GGG {
+  color: #f2f2f2;
 }
-footer ul
-{
-    list-style-type: none;
-}
+
