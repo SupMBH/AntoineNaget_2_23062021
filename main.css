@@ -1,75 +1,159 @@
-@font-face 
-{  
-  font-family: "Open Sans";  
-  font-style: normal;  
-  font-weight: normal;  
-  src: url("Raleway-VariableFont_wght.ttf") format("truetype"), 
-       url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+@font-face {
+  
+  font-family: "Open Sans";
+  
+  font-style: normal;
+  
+  font-weight: normal;
+  
+src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
-/* DIMENSIONS JUSTES */
-#bloc_page 
-{
-  width: 1718px;
+#bloc_page {
+  margin: auto;
 }
-#corpsprincipal 
-{
+
+#corpsprincipal {
   padding: 40px;
 }
-/* FIN DIMENSIONS */
 
-/* FORME GENERALE */
-body, a 
-{
+body, a {
   font-family: "Open Sans", Arial, sans-serif;
   color: black;
 }
-ul 
-{
+
+
+
+ul {
   list-style-type: none;
 }
-h3 
-{
+
+h3 {
   font-weight: bold;
 }
-a 
-{
+
+a {
   text-decoration: none;
 }
-/* FIN FORME GENERALE */
 
-/* FOOTER JUSTE */
-footer
-{
+footer {
   background-color: #f2f2f2;
-  display: flex;  
+  display: flex;
 }
-.listeFooter 
-{
+
+.listeFooter {
   width: 33%;
   margin-bottom: 57px;
 }
-.listeFooter li 
-{
+
+.listeFooter li {
   height: 0px;
   padding-top: 40px;
 }
-/* FIN FOOTER*/
 
-/*ETOILES JUSTE */
-.BBB 
-{
+.BBB {
   color: #0065fc;
 }
 
-.GGG 
-{
+.GGG {
   color: #f2f2f2;
 }
-/* FIN ETOILES */
 
-
-header 
-{
+#Hligne1 {
   display: flex;
+  justify-content: space-between;
 }
+
+#barre {
+  display: flex;
+  align-items: baseline;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 3.2em;
+}
+
+nav li :hover {
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
+}
+
+#inscription {
+  display: flex;
+  align-items: center;
+}
+
+#inscription a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0065fc;
+  padding-left: 2em;
+}
+
+#phraseaccroche {
+  font-size: 142%;
+}
+
+#Hligne2 {
+  padding-top: 1.5em;
+}
+
+
+
+#boutonR i {
+  background-color: #f2f2f2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-top: 13px;
+  padding-right: 14px;
+  padding-bottom: 16px;
+  padding-left: 14px;
+
+}
+
+.localisation {
+  border: 1px solid #f2f2f2;
+  padding: 14px;
+  margin: 0px;
+}
+
+#envoi {
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 14px;
+  padding-left: 12px;
+  font-size: 16px;
+  background-color: #0065fc;
+  cursor: pointer;
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: medium none;
+  width: 10em;
+}
+
+*::placeholder {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+#boutonR .fa-search {
+  display: none;
+}
+
+#formbouton {
+  display: flex;
+  align-items: baseline;
+}
+
