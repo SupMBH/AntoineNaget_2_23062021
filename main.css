@@ -9,6 +9,10 @@
 src: url("https://fonts.google.com/share?selection.family=Open%20Sans"), url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
+#bloc_page {
+  width: 1718px;
+}
+
 body, a {
   font-family: "Open Sans", Arial, sans-serif;
   color: black;
@@ -24,8 +28,13 @@ ul {
 
 .listeFooter {
   width: 33%;
+  margin-bottom: 57px;
 }
-
+.listeFooter li {
+  height: 0px;
+  padding-top: 40px;
+  
+}
 h3 {
   font-weight: bold;
 }
@@ -33,6 +42,7 @@ h3 {
 footer {
   background-color: #f2f2f2;
   display: flex;
+  
 }
 
 a {
@@ -45,5 +55,9 @@ a {
 
 .GGG {
   color: #f2f2f2;
+}
+
+#corpsprincipal {
+  padding: 40px;
 }
 
