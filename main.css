@@ -307,3 +307,69 @@ padding-bottom: 0.5em;
   font-size: 15px;
   font-weight: bold;
 }
+
+
+/* ASIDE  */
+
+.popularite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5em;
+  padding: 1em 1.5em 0em 1.5em;
+}
+.popularite h2{
+  font-size: 18px;
+}
+#asideP .popularite i{
+  color: black;
+}
+#cellule{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0em 2em;
+}
+#asideP .pastilleP {
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 0em 3em 3em 3em;
+  height: 170px;
+  width: 100%;
+}
+#asideP .pastilleP a{
+  display: -webkit-inline-flex;
+}
+.pastilleP:hover{
+  transform:scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+#asideP img {
+  width: 40%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  object-fit: cover;
+}
+#asideP{
+  background-color: #f2f2f2;
+  margin-left: 1em;
+  border-radius: 15px;
+  width: 33%;
+}
+.PPtext{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  padding-left: 1em;
+}
+.PPtext h3{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.PPtext p{
+  font-size: 12px;
+}
