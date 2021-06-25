@@ -97,7 +97,7 @@ nav li :hover {
   padding-left: 2em;
 }
 
-#phraseaccroche {
+.phraseaccroche {
   font-size: 142%;
 }
 
@@ -233,3 +233,77 @@ font-size: 12px;
   width: 1em;
 }
 
+
+
+
+
+
+
+
+/*SECTION activités*/
+#activites_marseille
+{
+  margin-top: 3em;
+}
+
+.articulation{
+  display: flex;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
+
+.groupe3patchs{
+  display: flex;
+  width: 50%;
+}
+
+.colonneG{
+  width: 50%;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.colonneD{
+  width: 50%;
+  margin-left: 3em;
+}
+
+.grandepastille{
+  width: 50%;
+}
+
+.articulation img {
+width: 100%;
+height: 450px;
+object-fit: cover;
+border-radius: 15px 15px 0px 0px;
+}
+
+.articulation .pastillemoyenne img{
+  height: 220px;
+}
+
+.articulation .pastillepetite img{
+  height: 140px;
+}
+
+.grandepastille, .pastillemoyenne, .pastillepetite{
+box-shadow: 4px 4px 8px rgb(190, 189, 189);
+border-radius: 15px;
+padding-bottom: 0.5em;
+} 
+
+.colonneG .pastillemoyenne{
+  margin-bottom: 2em; 
+}
+
+.colonneD .pastillemoyenne{
+  margin-top: 2em;
+}
+
+.articulation h3{
+  background-color: white;
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
