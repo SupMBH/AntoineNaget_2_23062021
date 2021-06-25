@@ -157,3 +157,79 @@ nav li :hover {
   align-items: baseline;
 }
 
+
+
+
+
+
+
+
+/*FILTRES*/
+#filtre-filtre{
+  padding-right: 1em;
+}
+
+#lignefiltres {
+    display: flex;
+    align-items: center; 
+    margin-top: 2em;  
+}
+
+#porteBoutons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.bouton {
+   display: flex;
+   align-items: center;
+   margin-right: 2em;
+   border: 2px solid #f2f2f2;
+   border-radius: 30px; 
+   height: 2.5em;
+}
+#porteBoutons :hover{
+  color:blue;
+  background-color:#DEEBFF;
+}
+
+.bouton a {
+  text-decoration: none;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+#lignefiltres i {
+  background-color: #DEEBFF;
+  padding: 0.8em;
+  border-radius: 30px;
+  color: #0065fc;
+  width: 16px;
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.icone-info {
+  padding-top: 0.5em;
+  padding-right: 1em;
+  width: 30px;
+  height: 30px;
+}
+.icone-info .fas {
+padding: 2px;
+text-align: center;
+color: #0065FC;
+font-size: 12px;
+}
+
+#info i {
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  width: 1em;
+}
+
