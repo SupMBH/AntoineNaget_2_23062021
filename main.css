@@ -9,46 +9,36 @@
 src: url("https://fonts.google.com/share?selection.family=Open%20Sans"), url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
-#bloc_page {
+/* DIMENSIONS JUSTES */
+#bloc_page 
+{
   width: 1718px;
 }
+#corpsprincipal 
+{
+  padding: 40px;
+}
+/* FIN DIMENSIONS */
 
-body, a {
+/* FORME GENERALE */
+body, a 
+{
   font-family: "Open Sans", Arial, sans-serif;
   color: black;
 }
-
-header {
-  display: flex;
-}
-
-ul {
+ul 
+{
   list-style-type: none;
 }
-
-
-}
-h3 {
+h3 
+{
   font-weight: bold;
 }
-
-
-
-a {
+a 
+{
   text-decoration: none;
 }
-
-.BBB {
-  color: #0065fc;
-}
-
-.GGG {
-  color: #f2f2f2;
-}
-
-#corpsprincipal {
-  padding: 40px;
-}
+/* FIN FORME GENERALE */
 
 /* FOOTER JUSTE */
 footer
@@ -68,3 +58,18 @@ footer
   padding-top: 40px;
 }
 /* FIN FOOTER*/
+
+/*ETOILES JUSTE */
+.BBB {
+  color: #0065fc;
+}
+
+.GGG {
+  color: #f2f2f2;
+}
+/* FIN ETOILES */
+
+
+header {
+  display: flex;
+}
