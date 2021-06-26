@@ -306,13 +306,9 @@ padding-bottom: 0.5em;
 #asideP .popularite i{
   color: black;
 }
-
 #asideP .fa-star {
 padding-top: 65px;
-
 }
-
-
 #cellule{
   display: flex;
   flex-direction: column;
