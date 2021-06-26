@@ -333,7 +333,7 @@ border-radius: 15px 15px 0px 0px;
 }
 
 .grandepastille, .pastillemoyenne, .pastillepetite{
-pastilleH-shadow: 4px 4px 8px rgb(190, 189, 189);
+box-shadow: 4px 4px 8px rgb(190, 189, 189);
 border-radius: 15px;
 padding-bottom: 0.5em;
 } 
@@ -400,7 +400,7 @@ padding-bottom: 0.5em;
 #asideP .pastilleP {
   display: flex;
   background-color: white;
-  pastilleH-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
   border-radius: 15px;
   padding: 5px;
   margin: 0em 3em 3em 3em;
