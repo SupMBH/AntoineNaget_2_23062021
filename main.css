@@ -501,3 +501,135 @@ padding-bottom: 0.5em;
 .afficher-plus :hover{
   color: blue;
 }
+/* RESPONSIVE iphone*/
+@media screen and (max-width:730px)
+{
+#corpsprincipal{
+padding: 0px;
+}
+.logo{
+padding: 15px 0px 0px 20px;
+}
+header a {
+font-size: 1.4em;
+display: block;
+}
+#Hligne1{
+display: block;
+width: 100%;
+}
+#inscription{
+position: absolute;
+top: 1.2em;
+right: 1.5em;
+}
+nav{
+margin-top: 30px;
+width: 100%;
+}
+nav a {
+padding: 0px;
+padding-bottom: 20px;
+border-bottom: 2px solid #e6e2e7;
+}
+nav ul{
+padding-left: 0px;
+margin: 0px;
+}
+nav li {
+width: 50%;
+text-align: center;
+}
+nav li :hover{
+border-top: none;
+}
+nav li :hover {
+border-bottom: 2px solid #0065fc;
+color: blue;
+}
+#Hligne2 {
+margin: 0px 20px 0px 20px;
+}
+#lignefiltres{
+flex-direction: column;
+align-items: initial;
+}
+#asideP{
+border-radius: 0px;
+width: 100%;
+margin: 0px;
+}
+.corps{
+flex-direction: column-reverse;
+}
+.flexH{
+width: 100%;
+}
+.hebergement{
+background-color: initial;
+width: 100%;
+padding: 0px;
+}
+.ligne1H, .ligne2H{
+flex-direction: column;
+align-items: center;
+}
+.flexH .pastilleH{
+width: 84%; 
+}
+.afficher-plus{
+font-size: 14px;
+margin-top: 30px;
+padding-left: 2em;
+}
+#activites_marseille
+{
+  margin-top: 2em;
+}
+#activites_marseille .phraseaccroche
+{
+padding-left: 1em;
+}
+.articulation{
+flex-direction: column;
+align-items: center;
+}
+.groupe3patchs{
+flex-direction: column;
+width: 100%;
+align-items: center;
+}
+.colonneG, .colonneD
+{
+flex-direction: column;
+width: 90%;
+margin: 0px;
+}
+.grandepastille img 
+{
+height: 140px;
+}
+.articulation .pastillemoyenne img 
+{
+height: 140px;
+}
+.grandepastille{
+width: 90%;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+.pastillepetite, .pastillemoyenne
+{
+width: 100%;
+}
+footer
+{
+flex-direction: column;
+padding-bottom: 50px;
+}
+.listeFooter
+{
+  width: 100%;
+  height: 100px;
+}
+}
