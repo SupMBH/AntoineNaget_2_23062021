@@ -1,135 +1,102 @@
-@font-face {
-  
-  font-family: "Open Sans";
-  
-  font-style: normal;
-  
+@font-face 
+{  
+  font-family: "Open Sans";  
+  font-style: normal;  
   font-weight: normal;
-  
-src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
-
-#bloc_page {
+#bloc_page 
+{
   margin: auto;
 }
-
-#corpsprincipal {
+#corpsprincipal 
+{
   padding: 40px;
 }
-
-body, a {
+body, a 
+{
   font-family: "Open Sans", Arial, sans-serif;
   color: black;
 }
-
-#RESERVIA:hover {
+#RESERVIA:hover 
+{
   transform: scale(1.5);
   transition: all 0.1s ease-in-out;
 }
-
-ul {
+ul 
+{
   list-style-type: none;
 }
-
-h3 {
+h3 
+{
   font-weight: bold;
 }
-
-a {
+a 
+{
   text-decoration: none;
 }
-
-footer {
+footer 
+{
   background-color: #f2f2f2;
   display: flex;
 }
-
-.listeFooter {
+.listeFooter 
+{
   width: 33%;
   margin-bottom: 57px;
 }
-
-.listeFooter li {
+.listeFooter li 
+{
   height: 0px;
   padding-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .BBB {
   color: #0065fc;
 }
-
 .GGG {
   color: #f2f2f2;
 }
-
 #Hligne1 {
   display: flex;
   justify-content: space-between;
 }
-
 #barre {
   display: flex;
   align-items: baseline;
 }
-
 nav ul {
   display: flex;
   align-items: center;
 }
-
 nav a {
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 3.2em;
 }
-
 nav li :hover {
   border-top: 2px solid #0065fc;
   color: #0065fc;
 }
-
 #inscription {
   display: flex;
   align-items: center;
 }
-
 #inscription a {
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
   padding-left: 2em;
 }
-
 #inscription:hover {
   transform: scale(1.5);
   transition: all 0.1s ease-in-out;
 }
-
-
-
-
 .phraseaccroche {
   font-size: 142%;
 }
-
 #Hligne2 {
   padding-top: 1.5em;
 }
-
-
-
 #boutonR i {
   background-color: #f2f2f2;
   border-top-left-radius: 15px;
@@ -144,15 +111,11 @@ nav li :hover {
   transform: scale(1.5);
   transition: all 0.5s ease-in-out;
 }
-
-
-
 .localisation {
   border: 1px solid #f2f2f2;
   padding: 14px;
   margin: 0px;
 }
-
 #envoi {
   font-weight: bold;
   font-family: "Open Sans", Arial, sans-serif;
@@ -173,48 +136,33 @@ nav li :hover {
   transform: scale(1.10);
   transition: all 0.1s ease-in-out;
 }
-
-
 *::placeholder {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: bold;
   color: black;
   font-size: 16px;
 }
-
 #boutonR .fa-search {
   display: none;
 }
-
 #formbouton {
   display: flex;
   align-items: baseline;
 }
-
-
-
-
-
-
-
-
 /*FILTRES*/
 #filtre-filtre{
   padding-right: 1em;
 }
-
 #lignefiltres {
     display: flex;
     align-items: center; 
     margin-top: 2em;  
 }
-
 #porteBoutons {
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
 }
-
 .bouton {
    display: flex;
    align-items: center;
@@ -233,16 +181,11 @@ nav li :hover {
   transform: scale(1.10);
   transition: all 0.01s ease-in-out;
 }
-
-
-
-
 .bouton a {
   text-decoration: none;
   padding-right: 1em;
   padding-left: 1em;
 }
-
 #lignefiltres i {
   background-color: #DEEBFF;
   padding: 0.8em;
@@ -250,13 +193,11 @@ nav li :hover {
   color: #0065fc;
   width: 16px;
 }
-
 #info {
   display: flex;
   align-items: center;
   margin-top: 2em;
 }
-
 .icone-info {
   padding-top: 0.5em;
   padding-right: 1em;
@@ -269,7 +210,6 @@ text-align: center;
 color: #0065FC;
 font-size: 12px;
 }
-
 #info i {
   border: 2px solid #f2f2f2;
   border-radius: 20px;
@@ -280,72 +220,55 @@ font-size: 12px;
   transform: scale(2);
   transition: all 0.1s ease-in-out;
 }
-
-
-
-
-
 /*SECTION activités*/
 #activites_marseille
 {
   margin-top: 3em;
 }
-
 .articulation{
   display: flex;
   margin-bottom: 1em;
   margin-top: 1.5em;
 }
-
 .groupe3patchs{
   display: flex;
   width: 50%;
 }
-
 .colonneG{
   width: 50%;
   margin-left: 3em;
   margin-right: 3em;
 }
-
 .colonneD{
   width: 50%;
   margin-left: 3em;
 }
-
 .grandepastille{
   width: 50%;
 }
-
 .articulation img {
 width: 100%;
 height: 450px;
 object-fit: cover;
 border-radius: 15px 15px 0px 0px;
 }
-
 .articulation .pastillemoyenne img{
   height: 220px;
 }
-
 .articulation .pastillepetite img{
   height: 140px;
 }
-
 .grandepastille, .pastillemoyenne, .pastillepetite{
 box-shadow: 4px 4px 8px rgb(190, 189, 189);
 border-radius: 15px;
 padding-bottom: 0.5em;
 } 
-
 .colonneG .pastillemoyenne{
   margin-bottom: 2em; 
 }
-
 .colonneD .pastillemoyenne{
   margin-top: 2em;
 }
-
 .articulation h3{
   background-color: white;
   padding-left: 15px;
@@ -364,20 +287,11 @@ padding-bottom: 0.5em;
   transform: scale(1.05);
   transition: all 0.1s ease-in-out;
 }
-
-
-
-
 /* ASIDE  */
-
 .fa-chart-line:hover {
   transform: scale(2);
   transition: all 0.1s ease-in-out;
 }
-
-
-
-
 .popularite {
   display: flex;
   justify-content: space-between;
@@ -440,11 +354,6 @@ padding-bottom: 0.5em;
 .PPtext p{
   font-size: 12px;
 }
-
-
-
-
-
 /*Hébergement */
 .pastilleH img {
   width: 100%;
@@ -501,7 +410,7 @@ padding-bottom: 0.5em;
 .afficher-plus :hover{
   color: blue;
 }
-/* RESPONSIVE iphone*/
+/* RESPONSIVE iphone & ipad*/
 @media screen and (max-width:730px)
 {
 #corpsprincipal{
@@ -634,3 +543,134 @@ padding-bottom: 50px;
   height: 100%;
 }
 }
+@media screen and (min-width: 731px) and (max-width: 1024px) {
+  #corpsprincipal{
+    padding: 0px;
+    }
+    .logo{
+    padding: 15px 0px 0px 20px;
+    }
+    header a {
+    font-size: 1.4em;
+    display: block;
+    }
+    #Hligne1{
+    display: block;
+    width: 100%;
+    }
+    #inscription{
+    position: absolute;
+    top: 1.2em;
+    right: 1.5em;
+    }
+    nav{
+    margin-top: 30px;
+    width: 100%;
+    }
+    nav a {
+    padding: 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e6e2e7;
+    }
+    nav ul{
+    padding-left: 0px;
+    margin: 0px;
+    }
+    nav li {
+    width: 50%;
+    text-align: center;
+    }
+    nav li :hover{
+    border-top: none;
+    }
+    nav li :hover {
+    border-bottom: 2px solid #0065fc;
+    color: blue;
+    }
+    #Hligne2 {
+    margin: 0px 20px 0px 20px;
+    }
+    #lignefiltres{
+    flex-direction: column;
+    align-items: initial;
+    }
+    #asideP{
+    border-radius: 0px;
+    width: 100%;
+    margin: 0px;
+    }
+    .corps{
+    flex-direction: column-reverse;
+    }
+    .flexH{
+    width: 100%;
+    }
+    .hebergement{
+    background-color: initial;
+    width: 100%;
+    padding: 0px;
+    }
+    .ligne1H, .ligne2H{
+    flex-direction: column;
+    align-items: center;
+    }
+    .flexH .pastilleH{
+    width: 84%; 
+    }
+    .afficher-plus{
+    font-size: 14px;
+    margin-top: 30px;
+    padding-left: 2em;
+    }
+    #activites_marseille
+    {
+      margin-top: 2em;
+    }
+    #activites_marseille .phraseaccroche
+    {
+    padding-left: 1em;
+    }
+    .articulation{
+    flex-direction: column;
+    align-items: center;
+    }
+    .groupe3patchs{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    }
+    .colonneG, .colonneD
+    {
+    flex-direction: column;
+    width: 90%;
+    margin: 0px;
+    }
+    .grandepastille img 
+    {
+    height: 140px;
+    }
+    .articulation .pastillemoyenne img 
+    {
+    height: 140px;
+    }
+    .grandepastille{
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+    .pastillepetite, .pastillemoyenne
+    {
+    width: 100%;
+    }
+    footer
+    {
+    flex-direction: column;
+    padding-bottom: 50px;
+    }
+    .listeFooter
+    {
+      margin-bottom: 20px;
+      width: 100%;
+      height: 100%;
+    }
+    }
