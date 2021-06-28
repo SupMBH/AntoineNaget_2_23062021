@@ -475,8 +475,20 @@ padding-bottom: 20px;
 
 #porteBoutons
 {
-  padding-left: 35px;
+  padding-left: 6px;
 }
+
+
+/* PORTFOLIO Modif à faire après la soutenance du P2 
+#porteBoutons
+{
+  padding-left: 20px;
+}
+/* FIN MODIF */
+
+
+
+
 .bouton
 {
   margin-bottom: 10px;
