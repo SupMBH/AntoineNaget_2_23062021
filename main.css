@@ -7,13 +7,16 @@
   src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 #bloc_page 
+
 {
   margin: auto;
 }
+
 #corpsprincipal 
 {
   padding: 40px;
 }
+
 body, a 
 {
   font-family: "Open Sans", Arial, sans-serif;
@@ -36,16 +39,24 @@ a
 {
   text-decoration: none;
 }
+
 footer 
 {
   background-color: #f2f2f2;
   display: flex;
+  width: 100%;
 }
 .listeFooter 
 {
   width: 33%;
   margin-bottom: 57px;
 }
+
+body
+{
+  margin: auto;
+}
+
 .listeFooter li 
 {
   height: 0px;
@@ -415,8 +426,7 @@ padding-top: 65px;
   color: blue;
 }
 /* RESPONSIVE iphone & ipad*/
-@media screen and (max-width:730px)
-{
+@media screen and (max-width:730px) {
 #corpsprincipal{
 padding: 0px;
 }
