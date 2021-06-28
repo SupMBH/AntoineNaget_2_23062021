@@ -440,8 +440,50 @@ padding: 8px 0px 0px 25px;
 #inscription
 {
   font-size: 12px;
-  padding: 8px 0px 0px 25px;
+  font-weight:bolder;
+  padding: 9px 10px 0px 25px;
 }
+nav ul 
+{
+  font-size:12px;
+}
+
+#formbouton 
+{
+padding-left: 20px;
+}
+.localisation
+{
+  padding-right: 60px;
+}
+#envoi
+{
+  display: none;
+}
+#boutonR .fa-search{
+  display: initial;
+  color: #f2f2f2;
+  background-color: #0065FC;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+}
+#filtre-filtre 
+{
+padding-left: 20px;
+padding-bottom: 20px;
+}
+
+#porteBoutons
+{
+  padding-left: 20px;
+}
+.bouton
+{
+  margin-bottom: 10px;
+}
+
+
+
 #Hligne2
 {
   padding-left: 5px;
