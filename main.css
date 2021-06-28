@@ -7,25 +7,17 @@
   src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 #bloc_page 
-
 {
   margin: auto;
 }
-
 #corpsprincipal 
 {
   padding: 40px;
 }
-
 body, a 
 {
   font-family: "Open Sans", Arial, sans-serif;
   color: black;
-}
-#RESERVIA:hover 
-{
-  transform: scale(1.5);
-  transition: all 0.1s ease-in-out;
 }
 ul 
 {
@@ -39,7 +31,6 @@ a
 {
   text-decoration: none;
 }
-
 footer 
 {
   background-color: #f2f2f2;
@@ -51,12 +42,10 @@ footer
   width: 33%;
   margin-bottom: 57px;
 }
-
 body
 {
   margin: auto;
 }
-
 .listeFooter li 
 {
   height: 0px;
@@ -99,10 +88,6 @@ nav li :hover {
   color: #0065fc;
   padding-left: 2em;
 }
-#inscription:hover {
-  transform: scale(1.5);
-  transition: all 0.1s ease-in-out;
-}
 .phraseaccroche {
   font-size: 142%;
 }
@@ -118,11 +103,42 @@ nav li :hover {
   padding-bottom: 16px;
   padding-left: 14px;
 }
+
+
+/* FACULTATIF pour renforcer le portfolio post Formationh animation sur le bouton recherche*/
 .localisation:hover
 {
   transform: scale(1.5);
   transition: all 0.5s ease-in-out;
 }
+#RESERVIA:hover 
+{
+  transform: scale(1.5);
+  transition: all 0.1s ease-in-out;
+}
+#envoi:hover {
+  transform: scale(1.10);
+  transition: all 0.1s ease-in-out;
+}
+.icone-info:hover
+{
+  transform: scale(2);
+  transition: all 0.1s ease-in-out;
+}
+.fa-chart-line:hover {
+  transform: scale(2);
+  transition: all 0.1s ease-in-out;
+}
+.afficher-plus :hover{
+  color: blue;
+}
+#inscription:hover {
+  transform: scale(1.5);
+  transition: all 0.1s ease-in-out;
+}
+/* FIN FACULTATIF portfolio*/
+
+
 .localisation {
   border: 1px solid #f2f2f2;
   padding: 14px;
@@ -143,10 +159,6 @@ nav li :hover {
   border-bottom-right-radius: 15px;
   border: medium none;
   width: 10em;
-}
-#envoi:hover {
-  transform: scale(1.10);
-  transition: all 0.1s ease-in-out;
 }
 *::placeholder {
   font-family: "Open Sans", Arial, sans-serif;
@@ -227,11 +239,6 @@ font-size: 12px;
   border-radius: 20px;
   width: 1em;
 }
-.icone-info:hover
-{
-  transform: scale(2);
-  transition: all 0.1s ease-in-out;
-}
 /*SECTION activités*/
 #activites_marseille
 {
@@ -300,10 +307,6 @@ padding-bottom: 0.5em;
   transition: all 0.1s ease-in-out;
 }
 /* ASIDE  */
-.fa-chart-line:hover {
-  transform: scale(2);
-  transition: all 0.1s ease-in-out;
-}
 .popularite {
   display: flex;
   justify-content: space-between;
@@ -421,9 +424,6 @@ padding-top: 65px;
 }
 .afficher-plus{
   padding-left: 1em;
-}
-.afficher-plus :hover{
-  color: blue;
 }
 /* RESPONSIVE iphone & ipad*/
 @media screen and (max-width:730px) {
