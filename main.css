@@ -475,20 +475,35 @@ padding-bottom: 20px;
 
 #porteBoutons
 {
-  padding-left: 20px;
+  padding-left: 35px;
 }
 .bouton
 {
   margin-bottom: 10px;
 }
 
-
+#info
+{
+  margin-top: 0em;
+  padding-left: 20px;
+}
 
 #Hligne2
 {
   padding-left: 5px;
   padding-bottom: 20px;
   
+}
+.popularite h2
+{
+  font-size: 100%;
+}
+
+.hebergement h2
+{
+  font-size: 142%;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 header a {
