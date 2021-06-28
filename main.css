@@ -441,7 +441,7 @@ padding: 8px 0px 0px 25px;
 {
   font-size: 12px;
   font-weight:bolder;
-  padding: 9px 10px 0px 25px;
+  padding: 10px 10px 0px 25px;
 }
 nav ul 
 {
@@ -536,6 +536,20 @@ nav li {
 width: 50%;
 text-align: center;
 }
+
+#bugfix .fa-star
+{
+  padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
 nav li :hover{
 border-top: none;
 }
