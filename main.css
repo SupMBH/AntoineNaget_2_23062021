@@ -105,7 +105,7 @@ nav li :hover {
 }
 
 
-/* FACULTATIF pour renforcer le portfolio post Formationh animation sur le bouton recherche*/
+/* FACULTATIF pour renforcer le portfolio post Formation animation sur le bouton recherche*/
 .localisation:hover
 {
   transform: scale(1.5);
@@ -425,14 +425,30 @@ padding-top: 65px;
 .afficher-plus{
   padding-left: 1em;
 }
+
+
+
+
 /* RESPONSIVE iphone & ipad*/
 @media screen and (max-width:730px) {
 #corpsprincipal{
 padding: 0px;
 }
-.logo{
-padding: 15px 0px 0px 20px;
+#RESERVIA{
+padding: 8px 0px 0px 25px;
 }
+#inscription
+{
+  font-size: 12px;
+  padding: 8px 0px 0px 25px;
+}
+#Hligne2
+{
+  padding-left: 5px;
+  padding-bottom: 20px;
+  
+}
+
 header a {
 font-size: 1.4em;
 display: block;
