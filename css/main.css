@@ -4,7 +4,8 @@
   font-family: "Open Sans";  
   font-style: normal;  
   font-weight: normal;
-  src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  src: url("Raleway-VariableFont_wght.ttf") format("truetype"), 
+      url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 #bloc_page 
 {
