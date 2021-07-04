@@ -7,6 +7,13 @@
   src: url("Raleway-VariableFont_wght.ttf") format("truetype"), 
       url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
+.modsout {
+  position: absolute !important;
+  height: 1px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
 #bloc_page 
 {
   margin: auto;
@@ -88,9 +95,6 @@ nav li :hover {
   font-weight: bold;
   color: #0065fc;
   padding-left: 2em;
-}
-.phraseaccroche {
-  font-size: 142%;
 }
 #Hligne2 {
   padding-top: 1.5em;
@@ -388,7 +392,7 @@ padding-top: 65px;
   border-radius: 15px;
 }
 .titreH h2 {
-  font-size: 18px;
+  /*font-size: 18px;*/
   margin-left: 1em;
 }
 .ligne1H {
