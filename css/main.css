@@ -326,8 +326,9 @@ padding-bottom: 0.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.5em;
-  padding: 1em 1.5em 0em 1.5em;
+  margin: 0.5em 0em 1em 0.7em;
+ 
+  padding: 0.5em 1.5em 0em 1.5em;
 }
 
 #asideP .popularite i{
@@ -386,6 +387,9 @@ padding-top: 65px;
   font-size: 12px;
 }
 /*Hébergement */
+
+
+
 .pastilleH img {
   width: 100%;
   height: 150px;
