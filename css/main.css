@@ -14,6 +14,16 @@
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
 }
+
+h2
+{
+  font-size: 120%;
+}
+h1
+{
+  font-size: 130%;
+}
+
 #bloc_page 
 {
   margin: auto;
@@ -446,6 +456,11 @@ padding: 8px 0px 0px 25px;
   font-weight:bolder;
   padding: 10px 10px 0px 25px;
 }
+
+h1
+{
+  font-size: 140%;
+}
 nav ul 
 {
   font-size:12px;
@@ -517,9 +532,16 @@ padding-bottom: 20px;
 
 .hebergement h2
 {
-  font-size: 142%;
+  font-size: 100%;
   padding-top: 20px;
   padding-left: 10px;
+}
+
+#activites_marseille h2
+{
+  font-size: 100%;
+  margin-bottom: -20px;
+  padding-left: 20px;
 }
 
 header a {
